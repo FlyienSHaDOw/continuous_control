@@ -1,4 +1,4 @@
-# Project 2: Continuous Control
+# Continuous Control
 
 ---
 ## 1. Project Details
