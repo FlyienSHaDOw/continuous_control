@@ -91,6 +91,7 @@ For the process of training actor network, the training data are randomly picked
 ![critic_learn](https://github.com/FlyienSHaDOw/project_2_continuous_control/blob/master/img/critic_learn.png)
 
 <center>Figure 2 DDPG learning process—critic</center>
+
  The update of critic network is even more complex. First of all, since we prefer to get the **Expected** action-value function, we use the state of the next time step <img src="https://latex.codecogs.com/gif.latex?s_{t+1}"/>. An next time step action is guessed via the **Target** network of the actor. And The expected value function is generated via **Target** network of the critic, and the action value function is generated via **Local** network of critic. Then, the Bellman equation is calculated with the value function, and the mean-square-error loss function is applied for the update of **Local** network of the critic.
 
 Bear in mind that, for both actor and critic network, the Target network are slowly converged to the Local network through **soft update**.
