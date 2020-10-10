@@ -165,5 +165,3 @@ In the parameter tuning process, the author found that the DDPG method is not ro
 (1992). https://doi.org/10.1023/A:102267672231
 
 [4] Sutton R, Barto A, Reinforcement Learning: An Introduction, The MIT Press, 2018.
-
-[5] https://github.com/FlyienSHaDOw/deep-reinforcement-learning.
